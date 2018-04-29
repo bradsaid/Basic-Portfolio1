@@ -1,0 +1,96 @@
+body {
+  background-image: url("assets/images/wood.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: gray;
+}
+
+/* Style the header */
+.header {
+    background-color: #ffffff;
+    text-align: center;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    height: 60px;
+    text-align: center;
+    margin-left: 50px;
+    height: 80px;
+    width: 220px;
+ }
+
+.firstfooter {
+    background-color: #4aaaa5;
+    height: 8px;
+}
+
+footer {
+    background-color: #666666;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: gray
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    height: 80px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.content {
+    padding: 15px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-top: 36px;
+    margin-bottom: 99px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+#me {
+    height: 126px;
+    width: 167px;
+    float: left;
+    margin-right: 10px;
+}
+
+P {
+    line-height: 200%;
+}
