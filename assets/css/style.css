@@ -1,15 +1,14 @@
 body {
-  background-image: url("assets/images/wood.png");
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: gray;
+    color: #777777;
+    width: 100%;
+    background-image: url(../images/wood1.png);
 }
 
-/* Style the header */
 .header {
     background-color: #ffffff;
     text-align: center;
-    border-color: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 86px;
+    border: 2px solid #cccccc;
 }
 
 .name {
@@ -18,31 +17,22 @@ body {
     float: left;
     height: 60px;
     text-align: center;
-    margin-left: 50px;
-    height: 80px;
-    width: 220px;
+    margin-left: 200px;
+    height: 37px;
+    width: 150px;
+    padding: 25px;
  }
 
-.firstfooter {
-    background-color: #4aaaa5;
-    height: 8px;
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-footer {
-    background-color: #666666;
-    height: 30px;
-    text-align: center;
-    font-size: 12px;
-    padding: 12px;
-}
-
-/* Style the top navigation bar */
-.topnav {
+ .topnav {
     overflow: hidden;
-    margin-right: 25px;
 }
 
-/* Style the topnav links */
 .topnav a {
     float: right;
     display: block;
@@ -50,16 +40,10 @@ footer {
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    height: 80px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: -400px;
+    margin-right: 400px;
 }
-
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
 
 .content {
     padding: 15px;
@@ -67,11 +51,28 @@ footer {
     border-color: #dddddd;
     margin-top: 36px;
     margin-bottom: 99px;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-right: 50px;
+    width: 960px;
+    border: 2px solid #cccccc;
 }
 
-/* Clear floats after the columns */
+.portfolio {
+    padding: 15px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-top: 36px;
+    margin-bottom: 99px;
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 960px;
+    border: 2px solid #cccccc;
+}
+
+
+
+
+
 .row:after {
     content: "";
     display: table;
@@ -82,7 +83,15 @@ footer {
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
 }
+
+img {
+    height: 126px;
+    width: 167px;
+}
+
 
 #me {
     height: 126px;
@@ -93,4 +102,17 @@ h2 {
 
 P {
     line-height: 200%;
+}
+
+ .firstfooter {
+    background-color: #4aaaa5;
+    height: 8px;
+}
+
+footer {
+    background-color: #666666;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
 }
